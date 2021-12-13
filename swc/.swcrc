@@ -1,0 +1,18 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "target": "es2015",
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "importSource": "vue-jsx-runtime"
+      }
+    }
+  },
+  "module": {
+    "type": "es6"
+  }
+}
