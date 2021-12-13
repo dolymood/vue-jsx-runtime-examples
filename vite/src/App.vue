@@ -3,11 +3,14 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import { Hello } from './components/Hello'
+import { ref } from 'vue'
+const txt = ref('Hello')
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <Hello txt="Hello" />
+  <Hello :txt="txt" />
+  <button type="button" @click="txt = 'Hello World'">change txt</button>
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
