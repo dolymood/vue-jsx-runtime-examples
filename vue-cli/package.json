@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-jsx-runtime": "^0.0.1"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.16.0",
@@ -28,7 +29,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
-    "typescript": "~4.1.5",
-    "vue-jsx-runtime": "^0.0.1"
+    "typescript": "~4.1.5"
   }
 }
