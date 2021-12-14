@@ -1,12 +1,12 @@
-import * as Vue from 'vue'
+import { defineComponent, computed, ref } from 'vue'
 
-export const Hello = Vue.defineComponent({
+export const Hello = defineComponent({
   props: {
     txt: String
   },
   setup (props) {
-    const newTxt = Vue.computed(() => `New ${props.txt}`)
-    const n = Vue.ref('1')
+    const newTxt = computed(() => `New ${props.txt}`)
+    const n = ref('1')
     return () => {
       return (
         <>
