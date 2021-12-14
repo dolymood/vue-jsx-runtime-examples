@@ -20,11 +20,12 @@ specifiers:
   eslint-plugin-vue: ^7.0.0
   typescript: ~4.1.5
   vue: ^3.0.0
-  vue-jsx-runtime: ^0.0.1
+  vue-jsx-runtime: ^0.1.0
 
 dependencies:
   core-js: 3.19.3
   vue: 3.2.26
+  vue-jsx-runtime: 0.1.0_vue@3.2.26
 
 devDependencies:
   '@babel/plugin-transform-react-jsx': 7.16.0
@@ -44,7 +45,6 @@ devDependencies:
   eslint-plugin-standard: 4.1.0_eslint@6.8.0
   eslint-plugin-vue: 7.20.0_eslint@6.8.0
   typescript: 4.1.6
-  vue-jsx-runtime: 0.0.1_vue@3.2.26
 
 packages:
 
@@ -9168,13 +9168,13 @@ packages:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
     dev: true
 
-  /vue-jsx-runtime/0.0.1_vue@3.2.26:
-    resolution: {integrity: sha512-sxjUVaC+4bBHMcZ05PJLg5NE+B7FeVa+CWeZcJkWPRQ3KtNJMC7S5waGShUhK7AHMK1BLeHlopjFEsoLWYReUw==}
+  /vue-jsx-runtime/0.1.0_vue@3.2.26:
+    resolution: {integrity: sha512-gISr2PorSYKoiUk1Y0E20BrRC1rAiVTQNKLZZYigKFY0HEC9VpUq7nrI7wgXe1DzhsjyWNIpcuvLsiHTi5yBXw==}
     peerDependencies:
       vue: '3'
     dependencies:
       vue: 3.2.26
-    dev: true
+    dev: false
 
   /vue-loader/15.9.8_0aadd186e864c83cab1284bae568d6ae:
     resolution: {integrity: sha512-GwSkxPrihfLR69/dSV3+5CdMQ0D+jXg8Ma1S4nQXKJAznYFX14vHdc/NetQc34Dw+rBbIJyP7JOuVb9Fhprvog==}

@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "vue-jsx-runtime": "^0.0.1"
+    "vue-jsx-runtime": "^0.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",

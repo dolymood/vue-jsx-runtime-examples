@@ -13,6 +13,6 @@
 	},
 	"dependencies": {
 		"vue": "^3.2.26",
-		"vue-jsx-runtime": "^0.0.1"
+		"vue-jsx-runtime": "^0.1.0"
 	}
 }

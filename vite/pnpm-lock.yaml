@@ -4,15 +4,15 @@ specifiers:
   '@vitejs/plugin-vue': ^2.0.0
   vite: ^2.7.2
   vue: ^3.2.25
-  vue-jsx-runtime: ^0.0.1
+  vue-jsx-runtime: ^0.1.0
 
 dependencies:
   vue: 3.2.26
+  vue-jsx-runtime: 0.1.0_vue@3.2.26
 
 devDependencies:
   '@vitejs/plugin-vue': 2.0.0_vite@2.7.2+vue@3.2.26
   vite: 2.7.2
-  vue-jsx-runtime: 0.0.1_vue@3.2.26
 
 packages:
 
@@ -387,13 +387,13 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-jsx-runtime/0.0.1_vue@3.2.26:
-    resolution: {integrity: sha512-sxjUVaC+4bBHMcZ05PJLg5NE+B7FeVa+CWeZcJkWPRQ3KtNJMC7S5waGShUhK7AHMK1BLeHlopjFEsoLWYReUw==}
+  /vue-jsx-runtime/0.1.0_vue@3.2.26:
+    resolution: {integrity: sha512-gISr2PorSYKoiUk1Y0E20BrRC1rAiVTQNKLZZYigKFY0HEC9VpUq7nrI7wgXe1DzhsjyWNIpcuvLsiHTi5yBXw==}
     peerDependencies:
       vue: '3'
     dependencies:
       vue: 3.2.26
-    dev: true
+    dev: false
 
   /vue/3.2.26:
     resolution: {integrity: sha512-KD4lULmskL5cCsEkfhERVRIOEDrfEL9CwAsLYpzptOGjaGFNWo3BQ9g8MAb7RaIO71rmVOziZ/uEN/rHwcUIhg==}

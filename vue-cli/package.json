@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
-    "vue-jsx-runtime": "^0.0.1"
+    "vue-jsx-runtime": "^0.1.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.16.0",
